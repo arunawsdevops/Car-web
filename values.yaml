@@ -7,5 +7,5 @@ adobe-roadmap-ui:
 
   image:
     repository: docker-ipaas-snapshot.dr-uw2.adobeitc.com/ipaas/adobe-roadmap-ui
-    tag: "1.0.6"
+    tag: "1.0.7"
     pullPolicy: Always
