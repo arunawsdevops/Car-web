@@ -1,0 +1,11 @@
+cluster: ethos505stageva6
+
+adobe-roadmap-ui:
+  replicaCount: 2
+  imagePullSecrets:
+    secretName: registry-secret
+
+  image:
+    repository: docker-ipaas-snapshot.dr-uw2.adobeitc.com/ipaas/adobe-roadmap-ui
+    tag: "1.0.6"
+    pullPolicy: Always
